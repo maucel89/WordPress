@@ -1,0 +1,311 @@
+/*
+Theme Name: Tema Papà
+Theme URI: http://maucel89.it/tema-papa
+Author: Mauro Celani
+Author URI: http://maucel89.it
+Description: Tema realizzato in occasione del rinnovo grafico del sito da guida turistica per mio padre.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: papà, papa, tema, maucel89
+Text Domain: tema-papa
+*/
+
+
+.back-grad{
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center top, circle closest-corner, #eee 0%, bisque 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center top, circle closest-corner, #eee 0%, bisque 100%);
+    /* Opera */ 
+    background-image: -o-radial-gradient(center top, circle closest-corner, #eee 0%, bisque 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center top, 0, center top, 477, color-stop(0, #eee), color-stop(1, bisque));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center top, circle closest-corner, #eee 0%, bisque 100%);
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(circle closest-corner at center top, #eee 0%, bisque 100%);
+}
+
+.bg-table{ background-color: antiquewhite; }
+.bg-table td,.bg-table th{
+    border: solid 1px;
+    padding: 1px 2px;
+}
+.text-uppercase{ text-transform: uppercase; }
+.small-margin-top{ margin-top: 15px; }
+.margin-none{ margin: 0; }
+ul.margined > li{ margin-top: 10px; }
+ul.margined > li:last-child{ margin-bottom: 20px; }
+
+hr{ border-color: #555; }
+textarea{ resize: none; }
+a:hover{ transition: 0.5s background, 0.5s color; }
+
+body{
+    background-color: burlywood;
+    font-size: 16px;
+    text-align: justify;
+}
+
+h2{
+    margin-bottom: 15px;
+    font-weight: bold;
+    /*color: #fff;
+    text-shadow: 1px 1px #428bca, 0 -1px antiquewhite;*/
+    color: firebrick;
+    /*text-shadow:
+        -1px -1px 1px antiquewhite,
+        1px 0px 1px antiquewhite,
+        1px 1px 2px #555;
+    color: #fff;
+    text-shadow:
+        -1px -1px 1px #555,
+        1px 0px 1px #555,
+        1px 1px 2px #428bca;*/
+}
+
+
+img.pull-left{ margin-right: 10px; }
+img.pull-right{ margin-left: 10px; }
+
+header div.jumbotron{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border: solid 1px #555;
+    border-top: 0;
+}
+header div h1 small{ text-shadow: 0 1px #555; }
+header div h1{
+    color: #428bca !important;
+    text-shadow:
+        0 1px #555,
+        0 -1px #FFF,
+        1px 0 #555,
+        -1px 0 #555,
+        -1px -1px #FFF,
+        1px 1px #555,
+        -1px 1px #FFF,
+        1px -1px #555;
+}
+
+/* NAV */
+.nav li a.dropdown-toggle:hover{ background-color: #eee; }
+.nav-tabs{ border-color: #555; }
+
+.navbar{
+    border-bottom: solid 1px #555;
+    border-radius: 0;
+    min-height: inherit;
+    margin-bottom: 0;
+}
+#content-menu li a{ color: #555; }
+#content-menu > li > a{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-right: 4px;
+}
+#content-menu li a, .dropdown-menu, .widget_myprofiledescwidget .thumbnail
+{ background-color: antiquewhite; }
+
+#content-menu li a:hover{ background-color: #f5f5f5; }
+#content-menu li.active > a{
+    background-color: #428bca;
+    color: white;
+}
+#content-menu > li > a:hover,
+#content-menu > li > a:focus,
+#content-menu > li.active > a{
+    border: solid 1px #555;
+    border-bottom: 0;
+    top: 1px;
+    height: 50px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.dropdown-menu{
+    font-size: inherit;
+    /*visibility: hidden;*/
+}
+
+.panel ul{
+    list-style-type: disc;
+    margin-left: 25px;
+}
+.panel ul li{
+    margin-bottom: 5px;
+}
+
+.panel-default > .panel-heading{ background-color: #ddd; }
+
+#romano{ width: 179px; }
+
+/* SIDEBAR */
+#sidebar li{ list-style-type: none; }
+#sidebar .widget{
+    padding: 20px 0;
+    border-bottom: solid 1px #555;
+}
+#sidebar .widget:first-child{ padding-top: 0; }
+#sidebar .widget:last-child{ border: 0; padding-bottom: 0; }
+
+img.flag{
+    height: 15px;
+    width: 24px;
+    margin-right: 5px;
+}
+a img.flag{ border: solid 1px #fff; }
+.list-group{ margin-bottom: 0; }
+
+img.gc-avatar{
+    border-radius: 7px;
+    border: solid 1px #777;
+    padding: 4px;
+    margin-top: 5px;
+    width: 245px;
+    background-color: white;
+}
+
+.widget_myprofiledescwidget, table{ text-align: left; }
+.widget_myprofiledescwidget h3{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+iframe{ border: solid 1px #999; }
+.table{ margin-bottom: 0px; }
+
+/* GUESTBOOK */
+h3#reply-title{ font-size: 20px; }
+h5.media-heading{ font-size: 17px; }
+
+
+/* TOUR VIRTUALI */
+iframe.tour-map{
+    display: block;
+    margin: auto;
+    width: 814px;
+    height: 400px;
+}
+iframe.tour-map+div.alert{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tour-title{
+    margin: 0;
+    text-align: center;
+}
+
+
+/* SLIDESHOW */
+.carousel-caption a{ color: white; }
+.attachment-post-thumbnail{ width: 100%; height: auto; }
+
+/* PRENOTA IL TUO SERVIZIO */
+.request-wrapper{ padding: 0 50px; }
+
+footer{ margin-bottom: 20px; }
+footer a{
+    font-weight: bold;
+    color: firebrick;
+}
+footer a:hover{ text-decoration: none; }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1199px){
+    body{ font-size: 14px; }
+    #content-menu > li > a{ padding: 10px 10px; }
+    img.gc-avatar{ margin-top: 0; }
+    iframe.tour-map{
+        width: 664px;
+        height: 320px;
+    }
+    #content-menu > li.active > a,
+    #content-menu > li > a:hover,
+    #content-menu > li > a:focus{
+        height: 40px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    body{ font-size: 13px; }
+    #content-menu > li > a{
+        padding: 5px 2px;
+        margin-right: 2px;
+    }
+    .list-group-item{ padding: 5px 5px; }
+    #content-menu > li > a:hover,
+    #content-menu > li > a:focus,
+    #content-menu > li.active > a{
+        height: 30px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #sidebar .widget{ padding: 10px 0; }
+    address{ font-size: 11px; }
+    iframe.tour-map{
+        width: 499px;
+        height: 260px;
+    }
+    #romano{ width: 145px; }
+    .request-wrapper{ padding: 0 25px; }
+}
+
+@media screen and (max-width: 767px){
+    body{ font-size: 15px; }
+    address{ font-size: 15px; }
+    #sidebar .widget:last-child .thumbnail{ margin-bottom: 0; }
+    .list-group-item{ padding: 10px 15px; }
+    img.gc-avatar{ margin-top: 10px; }
+    iframe.tour-map{
+        width: 100%;
+        min-width: 256px;
+        height: 260px;
+    }
+    .request-wrapper{ padding: 0 12px; }
+    .navbar-toggle{
+        border-color: #555;
+        background-color: #428bca;
+    }
+    .icon-bar{ background-color: white; }
+    .navbar{
+        background-color: antiquewhite;
+        border: solid 1px #ddd;
+        border-radius: 4px;
+    }
+    .navbar h3{
+        padding: 5px;
+        margin: 8px;
+    }
+    #content-menu{ border-top: solid 1px #555; }
+    #content-menu li a,
+    #content-menu li a:hover,
+    #content-menu li a:focus,
+    #content-menu li.active a{
+        border-radius: 0;
+        margin: 0;
+        padding: 15px;
+        top: 0;
+        border: 0;
+        border-bottom: solid 1px #ddd;
+        height: inherit;
+    }
+    #content-menu li a{
+        padding: 15px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    #content-menu li ul li a{ padding-left: 50px; }
+    #content-menu > li:last-child a{ border: 0; }
+    .navbar-collapse { max-height: inherit; }
+}
